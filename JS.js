@@ -165,3 +165,55 @@ var Pic = [
 	['Pic/BySte/IMG_20210806_104657.jpg','Q1 BySte Giorno Montagna Luca','20210806.104657',1,0],
 	['Pic/BySte/IMG_20210806_.jpg','Q BySte','20210806.888',1,0],
 ];
+
+var PicsD = [
+	[
+		['Pic/BySte/IMG_20210731_173720.jpg','Q1 BySte Giorno Marmotta','20210731.173720',1,0],
+		['Pic/BySte/IMG_20210731_174923.jpg','Q0 BySte Giorno Cartello','20210731.174923',1,0],
+		['Pic/BySte/IMG_20210731_193812.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Cielo','20210731.193812',1,0],
+		['Pic/BySte/IMG_20210731_193846.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Ruscello Cielo','20210731.193846',1,0],
+		['Pic/BySte/IMG_20210731_193921.jpg','Q1 BySte Giorno Lu Alice','20210731.193921',1,0],
+	],
+	[
+		['Pic/BySte/IMG_20210731_173720.jpg','Q1 BySte Giorno Marmotta','20210731.173720',1,0],
+		['Pic/BySte/IMG_20210731_174923.jpg','Q0 BySte Giorno Cartello','20210731.174923',1,0],
+		['Pic/BySte/IMG_20210731_193812.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Cielo','20210731.193812',1,0],
+		['Pic/BySte/IMG_20210731_193846.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Ruscello Cielo','20210731.193846',1,0],
+		['Pic/BySte/IMG_20210731_193921.jpg','Q1 BySte Giorno Lu Alice','20210731.193921',1,0],
+	],
+	[
+		['Pic/BySte/IMG_20210731_173720.jpg','Q1 BySte Giorno Marmotta','20210731.173720',1,0],
+		['Pic/BySte/IMG_20210731_174923.jpg','Q0 BySte Giorno Cartello','20210731.174923',1,0],
+		['Pic/BySte/IMG_20210731_193812.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Cielo','20210731.193812',1,0],
+		['Pic/BySte/IMG_20210731_193846.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Ruscello Cielo','20210731.193846',1,0],
+		['Pic/BySte/IMG_20210731_193921.jpg','Q1 BySte Giorno Lu Alice','20210731.193921',1,0],
+	],
+	[
+		['Pic/BySte/IMG_20210731_173720.jpg','Q1 BySte Giorno Marmotta','20210731.173720',1,0],
+		['Pic/BySte/IMG_20210731_174923.jpg','Q0 BySte Giorno Cartello','20210731.174923',1,0],
+		['Pic/BySte/IMG_20210731_193812.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Cielo','20210731.193812',1,0],
+		['Pic/BySte/IMG_20210731_193846.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Ruscello Cielo','20210731.193846',1,0],
+		['Pic/BySte/IMG_20210731_193921.jpg','Q1 BySte Giorno Lu Alice','20210731.193921',1,0],
+	],
+	[
+		['Pic/BySte/IMG_20210731_173720.jpg','Q1 BySte Giorno Marmotta','20210731.173720',1,0],
+		['Pic/BySte/IMG_20210731_174923.jpg','Q0 BySte Giorno Cartello','20210731.174923',1,0],
+		['Pic/BySte/IMG_20210731_193812.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Cielo','20210731.193812',1,0],
+		['Pic/BySte/IMG_20210731_193846.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Ruscello Cielo','20210731.193846',1,0],
+		['Pic/BySte/IMG_20210731_193921.jpg','Q1 BySte Giorno Lu Alice','20210731.193921',1,0],
+	],
+	[
+		['Pic/BySte/IMG_20210731_173720.jpg','Q1 BySte Giorno Marmotta','20210731.173720',1,0],
+		['Pic/BySte/IMG_20210731_174923.jpg','Q0 BySte Giorno Cartello','20210731.174923',1,0],
+		['Pic/BySte/IMG_20210731_193812.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Cielo','20210731.193812',1,0],
+		['Pic/BySte/IMG_20210731_193846.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Ruscello Cielo','20210731.193846',1,0],
+		['Pic/BySte/IMG_20210731_193921.jpg','Q1 BySte Giorno Lu Alice','20210731.193921',1,0],
+	],
+	[
+		['Pic/BySte/IMG_20210731_173720.jpg','Q1 BySte Giorno Marmotta','20210731.173720',1,0],
+		['Pic/BySte/IMG_20210731_174923.jpg','Q0 BySte Giorno Cartello','20210731.174923',1,0],
+		['Pic/BySte/IMG_20210731_193812.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Cielo','20210731.193812',1,0],
+		['Pic/BySte/IMG_20210731_193846.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Ruscello Cielo','20210731.193846',1,0],
+		['Pic/BySte/IMG_20210731_193921.jpg','Q1 BySte Giorno Lu Alice','20210731.193921',1,0],
+	],
+];
