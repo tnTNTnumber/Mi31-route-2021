@@ -5,6 +5,7 @@ var Pic = [
 var PicsD = [
 	[
 		//~ ['Giorno 1 (31 Luglio 2021)','20210731'],
+		['Pic/BySte/IMG_20210806_.jpg','Q BySte','20210806.888',1,0],
 		['Pic/BySte/IMG_20210731_173720.jpg','Q1 BySte Giorno Marmotta','20210731.173720',1,0],
 		['Pic/BySte/IMG_20210731_174923.jpg','Q0 BySte Giorno Cartello','20210731.174923',1,0],
 		['Pic/BySte/IMG_20210731_193812.jpg','Q0 BySte Giorno Tenda Montagna Nuvola Cielo','20210731.193812',1,0],
@@ -24,6 +25,7 @@ var PicsD = [
 	],
 	[
 		//~ ['Giorno 2 (1 Agosto 2021)','20210801'],
+		['Pic/BySte/IMG_20210806_.jpg','Q BySte','20210806.888',1,0],
 		['Pic/BySte/IMG_20210801_055904.jpg','Q2 BySte Montagna Cielo Nuvola Notte','20210801.055904',1,0],
 		['Pic/BySte/IMG_20210801_055914.jpg','Q1 BySte Montagna Cielo Nuvola Luna Notte','20210801.055914',1,0],
 		['Pic/BySte/IMG_20210801_060007.jpg','Q2 BySte Montagna Cielo Nuvola Luna Notte','20210801.060007',1,0],
@@ -71,6 +73,7 @@ var PicsD = [
 	],
 	[
 		//~ ['Giorno 3 (2 Agosto 2021)','20210802'],
+		['Pic/BySte/IMG_20210806_.jpg','Q BySte','20210806.888',1,0],
 		['Pic/BySte/IMG_20210802_135511.jpg','Q2 BySte Luca Alice Giorno','20210802.135511',1,0],
 		['Pic/BySte/IMG_20210802_135517.jpg','Q1 BySte Luca Alice Giorno','20210802.135517',1,0],
 		['Pic/BySte/IMG_20210802_135519.jpg','Q1 BySte Luca Alice Giorno','20210802.135519',1,0],
@@ -91,10 +94,12 @@ var PicsD = [
 	],
 	[
 		//~ ['Giorno 4 (3 Agosto 2021)','20210803'],
+		['Pic/BySte/IMG_20210806_.jpg','Q BySte','20210806.888',1,0],
 		['Pic/BySte/IMG_20210803_103249.jpg','Q0 BySte Cielo Montagna Nuvola Giorno','20210803.103249',1,0],
 	],
 	[
 		//~ ['Giorno 5 (4 Agosto 2021)','20210804'],
+		['Pic/BySte/IMG_20210806_.jpg','Q BySte','20210806.888',1,0],
 		['Pic/BySte/IMG_20210804_110010.jpg','Q2 BySte Giorno Madda Luca Tenda Gruppo','20210804.110010',1,0],
 		['Pic/BySte/IMG_20210804_224919.jpg','Q2 BySte Ste Tenda Notte','20210804.224919',1,0],
 		['Pic/BySte/IMG_20210804_224922.jpg','Q1 BySte Ste Tenda Notte','20210804.224922',1,0],
@@ -103,6 +108,7 @@ var PicsD = [
 	],
 	[
 		//~ ['Giorno 6 (5 Agosto 2021)','20210805'],
+		['Pic/BySte/IMG_20210806_.jpg','Q BySte','20210806.888',1,0],
 		['Pic/BySte/IMG_20210805_094936.jpg','Q1 BySte Giorno Montagna Nuvola Cielo Rifugio','20210805.094936',1,0],
 		['Pic/BySte/IMG_20210805_094943.jpg','Q0 BySte Giorno Montagna Frizzi','20210805.094943',1,0],
 		['Pic/BySte/IMG_20210805_100818.jpg','Q0 BySte Giorno Montagna Nuvola Cielo','20210805.100818',1,0],
@@ -128,6 +134,7 @@ var PicsD = [
 	],
 	[
 		//~ ['Giorno 7 (6 Agosto 2021)','20210806'],
+		['Pic/BySte/IMG_20210806_.jpg','Q BySte','20210806.888',1,0],
 		['Pic/BySte/IMG_20210806_085629.jpg','Q1 BySte Giorno Montagna Stambecco','20210806.085629',1,0],
 		['Pic/BySte/IMG_20210806_085631.jpg','Q1 BySte Giorno Montagna Stambecco','20210806.085631',1,0],
 		['Pic/BySte/IMG_20210806_091323.jpg','Q1 BySte Giorno Montagna Nuvola Cielo Lago Stambecco','20210806.091323',1,0],

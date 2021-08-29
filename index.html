@@ -65,7 +65,14 @@ function _PicScroll_fe(Day,TimeScroll) {
 	PicNCount.push(1);
 	setInterval(function(DayVar) {
 		if(PicNCount[DayVar-1]<PicsD[DayVar-1].length) {
-			if(PicNCount[DayVar-1]!=PicsD[DayVar-1].length-1) {
+			if(PicNCount[DayVar-1]<PicsD[DayVar-1].length-3) {
+				document.getElementById('PrePicN'+DayVar).innerHTML = '<img src="'+PicsD[DayVar-1][PicNCount[DayVar-1]+1][0]+'"></img>';
+				document.getElementById('PrePicN'+DayVar).innerHTML = '<img src="'+PicsD[DayVar-1][PicNCount[DayVar-1]+2][0]+'"></img>';
+				document.getElementById('PrePicN'+DayVar).innerHTML = '<img src="'+PicsD[DayVar-1][PicNCount[DayVar-1]+3][0]+'"></img>';
+			} else if(PicNCount[DayVar-1]<PicsD[DayVar-1].length-2) {
+				document.getElementById('PrePicN'+DayVar).innerHTML = '<img src="'+PicsD[DayVar-1][PicNCount[DayVar-1]+1][0]+'"></img>';
+				document.getElementById('PrePicN'+DayVar).innerHTML = '<img src="'+PicsD[DayVar-1][PicNCount[DayVar-1]+2][0]+'"></img>';
+			} else if(PicNCount[DayVar-1]<PicsD[DayVar-1].length-1) {
 				document.getElementById('PrePicN'+DayVar).innerHTML = '<img src="'+PicsD[DayVar-1][PicNCount[DayVar-1]+1][0]+'"></img>';
 			};
 			document.getElementById('d'+DayVar).innerHTML = '<img src="'+PicsD[DayVar-1][PicNCount[DayVar-1]][0]+'"></img>';
