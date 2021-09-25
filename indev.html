@@ -5,7 +5,8 @@
 <title>Mi31 Route 2021 - τnTNT_☢️</title>
 <meta charset="UTF-8">
 <!--link rel="stylesheet" href=".css"-->
-<script src="0.1.0.js"></script>
+<!--script src="0.1.0.js"></script-->
+<link rel="preload" as="image" href="Pic/D0/0.jpg">
 
 <style>
 
@@ -50,14 +51,57 @@ div {
 </style>
 <script>
 
-function _GalleryView_fe(d,t,ts) {
-	document.getElementById('day-list').innerHTML += '<div class="day" id="d'+d+'" style="opacity: 0;transform: scale(1.4,1.04);">Giorno '+d+'</div>';
-	document.getElementById('PrePic').innerHTML += '<div id="PrePicN'+d+'"></div>';
+var Sets = [
+	['D0', 'Sabato 31 Luglio 2021', 0],
+	['D1', 'Lunedì 1 Agosto 2021', 0],
+	['D2', 'Martedì 2 Agosto 2021', 0],
+	['D3', 'Mercoledì 3 Agosto 2021', 0],
+	['D4', 'Giovedì 4 Agosto 2021', 0],
+	['D5', 'Venerdì 5 Agosto 2021', 0],
+	['D6', 'Sabato 6 Agosto 2021', 0],
+	['ByAli', 'Foto di Alice', 0],
+	['ByLu', 'Foto di Luisa', 0],
+	['ByLuca', 'Foto di Luca', 0],
+	['ByPie', 'Foto di Pietro', 0],
+];
+
+function _GalleryView_fe(n,set,t,ts) {
+	document.getElementById('day-list').innerHTML += '<div class="day" id="'+set[0]+'" style="opacity: 0;transform: scale(1.4,1.04);">Giorno '+set[1]+'</div>';
 	setTimeout(function(dID) {
 		document.getElementById(dID).style.opacity = 1;
 		document.getElementById(dID).style.transform = 'scale(1)';
-	}, 0, 'd'+d);
-	_PicScroll_fe(d,ts);
+	}, 0, set[0]);
+	//~ _PicScroll_fe(d,ts);
+};
+
+function _GenGallery_fe(ii0) {
+	document.getElementById('day-list').innerHTML += '<div class="day" id="IdElN'+ii0+'" name="Gallery'+Sets[ii0][0]+'" onclick="f('+ii0+');" style="opacity:0;transform:scale(1.4,1.04);">'+Sets[ii0][1]+'</div>';
+	setTimeout(function(iii0) {
+		let Id = 'IdElN'+iii0;
+		document.getElementById(Id).style.opacity = 1;
+		document.getElementById(Id).style.transform = 'scale(1)';
+	}, 0, ii0);
+};
+
+function _PicPreLoad_fe(ii0,in1) {
+	for(i1=1; i1<in1+1; i1++) {
+		if(ImageExist('Pic/'+Sets[ii0][0]+'/'+i1+'.jpg')) {
+			document.head.innerHTML += '<link rel="preload" as="image" href="Pic/'+Sets[ii0][0]+'/'+i1+'.jpg">';
+		};
+	};
+};
+
+function ImageExist(url) {
+	var img = new Image();
+	img.src = url;
+	return img.height != 0;
+};
+
+function UrlExists(url) {
+	var http = new XMLHttpRequest();
+	http.open('HEAD', url, false);
+	http.send();
+	return http.status!==404;
 };
 
 function _PicScroll_fe(Day,TimeScroll) {
@@ -84,14 +128,21 @@ function _PicScroll_fe(Day,TimeScroll) {
 };
 
 var PicNCount = [];
+var TimeoutTime = null;
+var ScrollPitTime = null;
 
 window.onload = function _Onload_fe() {
-	let TotDay = 7;
-	let TimeoutTime = 1250;
+	TimeoutTime = 1250;
 	document.querySelector(':root').style.setProperty('--t', TimeoutTime+'ms');
-	let ScrollPicTime = 3500;
-	for(i0=1; i0<TotDay+1; i0++) {
-		setTimeout(_GalleryView_fe, TimeoutTime*(i0-1), i0, TimeoutTime, ScrollPicTime);
+	ScrollPicTime = 3500;
+	//~ for(i0=1; i0<_Sets_ae.length; i0++) {
+		//~ setTimeout(_GalleryView_fe, TimeoutTime*(i0-1), i0, Sets[i0], TimeoutTime, ScrollPicTime);
+	//~ };
+	for(i0=1; i0<Sets.length; i0++) {
+		setTimeout(function(i0) {
+			_GenGallery_fe(i0);
+			_PicPreLoad_fe(i0,3);
+		}, i0*TimeoutTime, i0);
 	};
 };
 
